@@ -1,3 +1,4 @@
+import java.io.PrintWriter;
 import java.util.Arrays;
 
 public class Simulation {
@@ -32,7 +33,7 @@ public class Simulation {
 
     public void printResults() {
 
-        
+//        PrintWriter fileOut = new PrintWriter("NoraResults.md");
         System.out.println("***");
         System.out.println("Simulation of " + howManyDice + " dice tossed " + numOfRolls + " times.");
         System.out.println("***\n");
